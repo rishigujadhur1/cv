@@ -1,0 +1,299 @@
+/*
+ * Media queries ------------------------------------
+ */
+
+
+
+@media screen and (max-width: 1920px) {
+    #intro h2{font-size:14em;}
+	#intro h3{font-size:3em;}
+	body{font-size:11px;} 
+	#topbar p{width:33%}
+	nav ul{	width:32%;}
+	#speakers .mini-bio{font-size:1.2em;}
+	#speakers article{padding-left:15%;}
+	#speakers article.odd{margin-left:0;}
+	#speakers article.even{margin-left:125px;}
+	#speakers article.blank{width:0;height:0;}
+	#venue-detail object{height:180px;}
+	.slide-pane ul li{margin:0 15px;}
+	.slide-pane .spacer-right{right:-50px;width:70px;}
+	#partners-list div{width:44%;}	
+	#sponsors-list div{min-height:330px;}
+}
+
+
+@media screen and (max-width: 1366px) {
+    #intro h2{font-size:14em;}
+	#intro h3{font-size:3em;}
+	body{font-size:11px;} 
+	#topbar p{width:33%}
+	nav ul{	width:32%;}
+	#speakers .mini-bio{font-size:1.2em;}
+	#speakers article{padding-left:15%;}
+	#speakers article.odd{margin-left:0;}
+	#speakers article.even{margin-left:125px;}
+	#speakers article.blank{width:0;height:0;}
+	#venue-detail object{height:180px;}
+	.slide-pane ul li{margin:0 15px;}
+	.slide-pane .spacer-right{right:-50px;width:70px;}
+	#partners-list div{width:44%;}	
+	#sponsors-list div{min-height:330px;}
+}
+
+@media screen and (max-width: 1280px) {
+    #intro h2{font-size:14em;}
+	#intro h3{font-size:3em;}
+	body{font-size:11px;} 
+	#topbar p{width:33%}
+	nav ul{	width:32%;}
+	#speakers .mini-bio{font-size:1.2em;}
+	#speakers article{padding-left:15%;}
+	#speakers article.odd{margin-left:0;}
+	#speakers article.even{margin-left:125px;}
+	#speakers article.blank{width:0;height:0;}
+	#venue-detail object{height:180px;}
+	.slide-pane ul li{margin:0 15px;}
+	.slide-pane .spacer-right{right:-50px;width:70px;}
+	#partners-list div{width:44%;}	
+	#sponsors-list div{min-height:330px;}
+}
+
+@media screen and (max-width: 1260px) {
+	.wrapper{padding:0 5%;width:90%;}
+	nav .wrapper{padding:0 3%;width:94%;}
+	footer #sticky{padding-right:0;width:90%;}
+	footer #signup {width:78%;}
+	footer #socialise {width:22%;}	
+}
+@media screen and (max-width: 1080px) {
+	
+	#intro h2{font-size:14em;}
+	#intro h3{font-size:3em;}
+	body{font-size:11px;} 
+	#topbar p{width:33%}
+	nav ul{	width:32%;}
+	#speakers .mini-bio{font-size:1.2em;}
+	#speakers article{padding-left:15%;}
+	#speakers article.odd{margin-left:0;}
+	#speakers article.even{margin-left:125px;}
+	#speakers article.blank{width:0;height:0;}
+	#venue-detail object{height:180px;}
+	.slide-pane ul li{margin:0 15px;}
+	.slide-pane .spacer-right{right:-50px;width:70px;}
+	#partners-list div{width:44%;}	
+	#sponsors-list div{min-height:330px;}
+}
+@media screen and (max-width: 960px) {
+	
+	header{position:inherit;height:0;}
+	
+	#topbar{background:rgb(12,79,89);z-index:1001;}
+	#topbar,nav {position:fixed!important;}
+	#topbar p{font-size:1.7em;background:none;}
+	#topbar .left{width:40%;text-align:left;padding-left:3%;}
+	#topbar .right{width:40%;text-align:right;padding-right:0;}
+	#topbar a{float:right;}
+	#topbar span{display:none;}
+	#topbar a small{display:block;float:left;margin-right:-43px;padding:2px 0;font-size:0.7em;letter-spacing:0.05em;line-height:23px;}
+	#topbar a strong{position:relative;background:url('./images/BG-orange-stripe.png')repeat center;top:0;width:auto;padding:0 20px;height:46px;overflow:hidden;line-height:60px;}
+	#topbar a strong em{display:inline-block;vertical-align:baseline;font-size:2.5em;}
+	#topbar a:hover strong{padding:0 22px;} 
+	
+	nav{position:absolute;top:45px;width:100%;height:50px;background:rgba(245,242,230,0.9);z-index:1000 !important;}
+	nav .wrapper{padding:0;width:100%;}
+	nav ul{line-height:50px;width:47.5%;font-size:1.2em;}
+	nav ul.left{text-align:right;}
+	nav ul.right{text-align:left;}
+	nav ul.left li{margin:0 0 0 10%;}
+	nav ul.right li{margin:0 10% 0 0;}
+	nav ul.left:last-child{margin:0;}
+	nav ul.right:last-child{margin:0;}
+	
+	h1{top:90px;}
+	
+	#intro h2{font-size:11em;}
+	#intro h3{font-size:2.4em;}
+	
+	#speakers article{padding-left:10%;}
+	#sponsors-list div{min-height:340px;}
+	
+	#venue-top{height:200px;}
+	#venue{background-image:none;background-color:rgb(99,35,0);padding-bottom:40px;}
+	#venue-intro,#venue-detail{background-image:url('./images/BG-venue-sml.png');}
+	#venue-intro h3{padding:20px 5%;}
+	#venue-detail address{width:60%;}
+	#venue-detail a.upper{width:300px;height:80px;font-size:2.2em;line-height:75px;background-position:-613px -50px;}
+	
+	#schedule h2{padding-top:140px;}
+		
+	#partners-list h2{padding-top:140px;}
+	
+	#about{padding-top:120px;}
+	#about #about-why div{width:46%;}
+	#about #about-why blockquote{width:90%;padding:30px 0;}
+	
+	footer #signup input[type="text"],footer #signup input[type="email"]{width:72%;background-image:none;margin:10px 0;}
+	footer #signup input[type="submit"]{background-position:0 0;width:89px;height:104px;font-size:2.2em;margin:-48px 0 0 3%;}
+	footer #socialise {width:22%;}	
+	footer #socialise h5{float:left;margin-right:2%;}
+	footer #socialise a{margin:5px 5% 0 0;}
+	footer #socialise a#lanyrd{margin:0 0 0 20%;}
+	
+	.inner h1{padding:90px 0 30px 0;}
+}
+@media screen and (max-width: 800px) {
+	nav ul.left li{margin:0 0 0 6%;}
+	nav ul.right li{margin:0 6% 0 0;}
+	#speakers article{padding-left:4%;}
+}
+@media screen and (max-width: 700px) {
+	
+	nav{display:block;height:auto;}
+	nav #toggle{display:block;}
+	nav ul{display:none;width:100%;float:left;}
+	nav ul, nav li{padding:0;margin:0 !important;text-align:left;}
+	nav li{width:33.33332%;float:left;}
+	nav li a{display:block;padding:0 3%;text-align:center;}	
+	nav li{border-top:1px solid;}
+	
+	#topbar a small{margin-right:-50px;}
+	#topbar a strong em{font-size:2.2em;}
+	
+	
+	#intro h2{font-size:9em;line-height:0.8em;padding:340px 5% 10px 5%;}
+	
+	#speakers h2{margin-bottom:-130px;}
+	#speakers article{margin:0 auto!important;padding:15px 0;height:auto;width:100%;}
+	#speakers article:last-child{border-bottom:0;}
+	#speakers .mini-bio{font-size:1.4em;float:right;background:none;width:48%;padding:0;padding-bottom:20px; text-align:left;height:auto;}
+	#speakers .mini-bio h3{padding:25% 0 0 0;font-size:2.2em;}
+	#speakers article.blank{display:none;}
+	#speakers img{margin:3% 0 0 0;float:left;width:48%;max-width:250px;}
+	.fancybox-inner .top p{width:100%;border-bottom:1px solid;}
+	.fancybox-inner .top p:last-child{border-bottom:none;}
+	
+	#venue-intro #tag{position:inherit;float:none;margin:0;padding:10px 0 2px 0;display:block;width:100%;font-size:4em;box-shadow:none;}
+	#venue-detail h2 img,#venue-intro h2 img{width:40.6%;}
+	#venue-intro h3{font-size:0.8em;}
+	#venue-detail a.upper{width:230px;height:68px;font-size:2.2em;line-height:64px;background-position:-648px -62px;}
+	#venue-intro #tag{font-size:2.2em;}
+	
+	#schedule h2{padding-top:110px;font-size:8em;}
+
+	#partners img{padding-top:0;border-top:2px solid;}
+	#partners-list div{width:95%;padding-bottom:40px;}
+	#partners-list h3,#sponsors-list h3{border-top:none;padding-top:0;}
+	#partners h2{padding:110px 0 0 0;font-size:8em;}
+	#sponsors-list div{width:44%;}
+	#sponsors-list div{min-height:300px;}
+	#friends-list div{width:28%;}
+	#friends-list img{border-top:none;}
+	
+	#about{padding-bottom:840px;}
+	#about h2{padding-top:50px; font-size:8em;}
+	#about #about-why div{width:100%;}
+	#about #about-why h3{font-size:6em;line-height:0.9em;}
+	#estuary div{height:auto; padding:90px 5% 5% 5%; width:90%;}
+	#estuary div img{display:block;position:absolute;left:50%;margin-left:-100px;top:-85px;}
+	#estuary p{	float:none;	width:100%;	margin-left:0;font-size:1.2em;padding:15px 0;}
+	#estuary p strong{text-align:center;font-size:1.6em;}
+	#estuary a{float:none;display:block;width:100%;}
+
+	footer h5{font-size:3.6em;text-align:center;}
+	footer h6{font-size:2em;padding:80px 2%;}
+	footer #sticky{padding-left:0;width:90%;}
+	footer #signup{width:100%;padding:0;}
+	footer #signup input[type="text"],footer #signup input[type="email"]{width:75%;}
+	footer #socialise h5{display:none;}
+	footer #socialise{width:100%;display:block;margin:20px auto;text-align:center;}
+	footer #socialise a{float:none;display:inline-block;margin:15px 1% !important;}
+	
+	#copyright{height:auto;padding:15px 0;}
+	#copyright p{float:none;width:100%;text-align:center;line-height:1.2em;font-size:1.1em;}
+
+	.inner h1{padding-top:50px;}
+
+}
+@media screen and (max-width: 550px) {
+
+}
+@media screen and (max-width: 480px) {
+	body{font-size:13px;} 
+	
+	h1{width:90%;}
+	
+	nav #toggle{background-position:3% center;}
+	
+	#topbar p.left{width:97%;text-align:center;}
+	#topbar a{margin-top:-11px;}
+	#topbar a strong{padding-top:2px;height:47px;}
+	#topbar a:hover strong{padding-top:2px;}
+	
+	#intro{padding-bottom:100px;}
+	#intro h2{padding:90% 5% 10px 5%; font-size:8em;}
+	#intro h3{font-size:2.4em;}
+	#intro p{font-size:1.5em;}
+	
+	#speakers h2{max-width:276px;height:45px;line-height:51px;font-size:2.5em;background-position:-444px -130px;}
+	#speakers .mini-bio{width:100%;text-align:center;}
+	#speakers .mini-bio h3{padding-top:35% !important;text-align:center;padding:0;font-size:1.8em;}
+	#speakers img{width:30%;position:absolute;top:2%;left:50%;margin-left:-15%;}
+	
+	#venue .wrapper{width:100%;padding:0;}
+	
+	.slide-pane ul li{margin:0 20px;}
+	.slide-pane .spacer-right{right:-60px;width:80px;}
+	
+	#partners h2{font-size:7em !important;}
+	#partners-list p a{background-position:-444px -130px;background-color:rgb(12,79,89);}
+	#sponsors-list div{width:95%;}
+	#sponsors-list div{padding-bottom:25px;}
+	
+	#friends-list div{width:44%;}
+	#intouch p a{display:block;padding:10px;margin:10px 0;background:rgb(4,56,64);border-radius:6px;}
+	
+	#about #about-us div{width:100%;padding-bottom:30px;}
+	#about #about-us blockquote{margin:0;padding:20px 0;}
+	#about #about-us div.right{padding-top:40px;border-top:rgb(169,166,152) 2px solid;}
+	#about-why div{width:100%;}
+	
+	footer h6{padding:40px 0;font-size:1.4em;}
+	footer #signup input[type="text"],footer #signup input[type="email"]{width:100%;}
+	footer #signup input[type="submit"]{background:url('./images/BG-orange-stripe.png')repeat center; height:44px;width:100%;margin:10px auto;}
+	
+	#copyright p em{display:none;}
+	#copyright p a{display:block;padding:10px;margin:10px 0;background:rgb(4,56,64);border-radius:6px;}
+
+	.container{background-size:100%;height:300px;width: 280px;padding:90px 10px 0 10px;}
+	.container h2{font-size:2.5em;}
+	.container p{font-size:1.1em;}
+	
+	#privacy h2{font-size:5.2em;}
+}
+@media screen and (max-width: 400px) {
+	nav li{width:100%;height:53px;line-height:53px;}
+	nav li a{text-align:left;}
+}
+/* 
+ * iPhone Only -----------------------------------------
+ */
+@media only screen and (max-device-width: 480px) {
+	
+	body,#intro,#speakers,#venue,#schedule,#about,#venue-top{background-image:none;}
+	body{background-color:rgb(232,230,216);}
+	#speakers,#venue-top{background:rgb(241,238,225);}
+	#speakers div.angleleft, #speakers div.angleright{display:none;}
+	#venue{background-color:rgb(146,51,0);}
+	#schedule{background-color:rgb(12,79,89);}
+	footer #signup input[type="text"],footer #signup input[type="email"]{width:95%;}
+}
+/* 
+ * iPad Only -----------------------------------------
+ */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	body,#intro,#venue,#schedule,#about{background-image:none;}
+	body{background-color:rgb(232,230,216);}
+	#venue{background-color:rgb(146,51,0);}
+	#schedule{background-color:rgb(12,79,89);}
+}

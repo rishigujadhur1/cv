@@ -1,0 +1,31 @@
+<section class="section novi-bg novi-bg-img section-md bg-default">
+  <div class="container">
+    <div class="row row-fix row-30 align-items-center justify-content-center wow fadeInUp">
+      <div class="col-xl-5 col-lg-8 col-md-9 text-center text-xl-left">
+        <h6>Contact Our Team</h6>
+        <h2>Get in touch with us</h2>
+        <p class="big">If you have a question or a testimonial for us, feel free to contact us using the form on the right.</p>
+      </div>
+      <div class="col-xl-7 col-lg-9">
+        <form class="rd-form rd-mailform rd-form-corporate novi-bg" data-form-output="form-output-global" data-form-type="contact" method="post" action="bat/rd-mailform.php">
+          <div class="row row-fix row-20 row-narrow">
+            <div class="col-md-6">
+              <div class="form-wrap"> <input class="form-input" id="captcha-contact-name" type="text" name="name" data-constraints="@Required"> <label class="form-label" for="captcha-contact-name">Your name <span class="text-primary">*</span></label> </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-wrap"> <input class="form-input" id="captcha-contact-email" type="email" name="email" data-constraints="@Email @Required"> <label class="form-label" for="captcha-contact-email">Your e-mail address <span class="text-primary">*</span></label> </div>
+            </div>
+            <div class="col-12">
+              <div class="form-wrap"> <textarea class="form-input" id="captcha-contact-message" name="message"></textarea> <label class="form-label" for="captcha-contact-message">Your message</label> </div>
+            </div>
+            <div class="col-12">
+              <div class="form-wrap form-validation-left">
+                <div class="recaptcha" id="captcha1" data-sitekey="6LfZlSETAAAAAC5VW4R4tQP8Am_to4bM3dddxkEt" data-auto-size=""></div>
+              </div>
+            </div>
+          </div> <button class="button button-secondary button-nuka" type="submit">Send <span class="button-overlay"></span></button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>

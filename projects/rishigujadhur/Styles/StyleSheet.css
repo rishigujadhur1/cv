@@ -1,0 +1,408 @@
+﻿#quote-carousel 
+{
+  padding: 0 10px 30px 10px;
+  margin-top: 30px;
+}
+
+/* Control buttons  */
+#quote-carousel .carousel-control
+{
+  background: none;
+  color: #222;
+  font-size: 2.3em;
+  text-shadow: none;
+  margin-top: 30px;
+}
+/* Previous button  */
+#quote-carousel .carousel-control.left 
+{
+  left: -12px;
+}
+/* Next button  */
+#quote-carousel .carousel-control.right 
+{
+  right: -12px !important;
+}
+/* Changes the position of the indicators */
+#quote-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the color of the indicators */
+#quote-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+#quote-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+#quote-carousel img
+{
+  width: 250px;
+  height: 100px
+}
+/* End carousel */
+
+.item blockquote {
+    border-left: none; 
+    margin: 0;
+}
+
+.item blockquote img {
+    margin-bottom: 10px;
+}
+
+.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+/**
+  MEDIA QUERIES
+*/
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #quote-carousel 
+    {
+      margin-bottom: 0;
+      padding: 0 40px 30px 40px;
+    }
+    
+}
+
+/* Small devices (tablets, up to 768px) */
+@media (max-width: 768px) { 
+    
+    /* Make the indicators larger for easier clicking with fingers/thumb on mobile */
+    
+    #quote-carousel .carousel-indicators {
+        bottom: -20px !important;  
+    }
+    #quote-carousel .carousel-indicators li {
+        display: inline-block;
+        margin: 0px 5px;
+        width: 15px;
+        height: 15px;
+    }
+    #quote-carousel .carousel-indicators li.active {
+        margin: 0px 5px;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.roles {
+   
+    height: 50px;
+    vertical-align: middle;
+    overflow: hidden;
+}
+
+.roles div {
+    height: 50px;
+    transition: margin-top 1s ease-in-out;
+}
+
+.glitch {
+  position: relative;
+  margin: 0 auto;
+  color: #fff;
+  font-size: 80px;
+  font-family: "Exo", sans-serif;
+  font-weight: 600;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+  -webkit-transform: scale3d(1, 1, 1);
+          transform: scale3d(1, 1, 1);
+}
+.glitch::before, .glitch::after {
+  content: attr(data-text);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  background:black;
+  color: #fff;
+  clip: rect(0, 900px, 0, 0);
+}
+.glitch::before {
+  left: 7px;
+  text-shadow: 1px 0 green;
+  -webkit-animation: glitch-effect 3s infinite linear alternate-reverse;
+          animation: glitch-effect 3s infinite linear alternate-reverse;
+}
+.glitch::after {
+  left: 3px;
+  text-shadow: -1px 0 red;
+  -webkit-animation: glitch-effect 2s infinite linear alternate-reverse;
+          animation: glitch-effect 2s infinite linear alternate-reverse;
+}
+
+@-webkit-keyframes glitch-effect {
+  0% {
+    clip: rect(2px, 9999px, 37px, 0);
+  }
+  5% {
+    clip: rect(8px, 9999px, 6px, 0);
+  }
+  10% {
+    clip: rect(95px, 9999px, 92px, 0);
+  }
+  15.0% {
+    clip: rect(100px, 9999px, 41px, 0);
+  }
+  20% {
+    clip: rect(78px, 9999px, 74px, 0);
+  }
+  25% {
+    clip: rect(16px, 9999px, 24px, 0);
+  }
+  30.0% {
+    clip: rect(47px, 9999px, 64px, 0);
+  }
+  35% {
+    clip: rect(85px, 9999px, 10px, 0);
+  }
+  40% {
+    clip: rect(61px, 9999px, 54px, 0);
+  }
+  45% {
+    clip: rect(26px, 9999px, 25px, 0);
+  }
+  50% {
+    clip: rect(29px, 9999px, 57px, 0);
+  }
+  55.0% {
+    clip: rect(72px, 9999px, 2px, 0);
+  }
+  60.0% {
+    clip: rect(35px, 9999px, 83px, 0);
+  }
+  65% {
+    clip: rect(89px, 9999px, 57px, 0);
+  }
+  70% {
+    clip: rect(79px, 9999px, 55px, 0);
+  }
+  75% {
+    clip: rect(41px, 9999px, 61px, 0);
+  }
+  80% {
+    clip: rect(9px, 9999px, 95px, 0);
+  }
+  85.0% {
+    clip: rect(60px, 9999px, 92px, 0);
+  }
+  90% {
+    clip: rect(81px, 9999px, 49px, 0);
+  }
+  95% {
+    clip: rect(31px, 9999px, 38px, 0);
+  }
+  100% {
+    clip: rect(87px, 9999px, 39px, 0);
+  }
+}
+
+@keyframes glitch-effect {
+  0% {
+    clip: rect(2px, 9999px, 37px, 0);
+  }
+  5% {
+    clip: rect(8px, 9999px, 6px, 0);
+  }
+  10% {
+    clip: rect(95px, 9999px, 92px, 0);
+  }
+  15.0% {
+    clip: rect(100px, 9999px, 41px, 0);
+  }
+  20% {
+    clip: rect(78px, 9999px, 74px, 0);
+  }
+  25% {
+    clip: rect(16px, 9999px, 24px, 0);
+  }
+  30.0% {
+    clip: rect(47px, 9999px, 64px, 0);
+  }
+  35% {
+    clip: rect(85px, 9999px, 10px, 0);
+  }
+  40% {
+    clip: rect(61px, 9999px, 54px, 0);
+  }
+  45% {
+    clip: rect(26px, 9999px, 25px, 0);
+  }
+  50% {
+    clip: rect(29px, 9999px, 57px, 0);
+  }
+  55.0% {
+    clip: rect(72px, 9999px, 2px, 0);
+  }
+  60.0% {
+    clip: rect(35px, 9999px, 83px, 0);
+  }
+  65% {
+    clip: rect(89px, 9999px, 57px, 0);
+  }
+  70% {
+    clip: rect(79px, 9999px, 55px, 0);
+  }
+  75% {
+    clip: rect(41px, 9999px, 61px, 0);
+  }
+  80% {
+    clip: rect(9px, 9999px, 95px, 0);
+  }
+  85.0% {
+    clip: rect(60px, 9999px, 92px, 0);
+  }
+  90% {
+    clip: rect(81px, 9999px, 49px, 0);
+  }
+  95% {
+    clip: rect(31px, 9999px, 38px, 0);
+  }
+  100% {
+    clip: rect(87px, 9999px, 39px, 0);
+  }
+}
+
+
+#element::-webkit-scrollbar { 
+    display: none; 
+}
+
+::-webkit-scrollbar { 
+    display: block; 
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+body,
+html {
+      
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.topnav {
+    font-size: 14px;
+}
+
+/* Have padding top so banner image doesn't overlap top nav */
+.intro-banner {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f2f2f2;
+    background: url('Images/Banner.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+.intro-inner {
+    position: relative;
+    padding-top: 20%;
+    padding-bottom: 20%;
+
+}
+
+.intro-inner > h1 {
+    margin: 0;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+    font-size: 5em;
+}
+
+.intro-divider {
+    width: 400px;
+    border-top: 1px solid #f2f2f2;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.intro-inner > h3 {
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.6);
+}
+
+/* Special paragraphs that stand out */
+.lead {
+    font-size: 20px;
+}
+
+/* For smaller devices */
+@media (max-width: 767px) {
+    .intro-inner {
+        padding-bottom: 15%;
+    }
+
+    .intro-inner > h1 {
+        font-size: 3em;
+    }
+
+    ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+    .intro-divider {
+        width: 100%;
+    }
+}
+
+.button-title {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 18px;
+}
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f2f2f2;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+/* hr */
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e3e3e3;
+}
+
+/* Little paragraph snippet sections */
+.section-heading {
+    margin-bottom: 30px;
+}
